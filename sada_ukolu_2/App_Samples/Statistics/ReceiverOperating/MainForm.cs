@@ -430,26 +430,27 @@ namespace ReceiverOperating
                     if (checkBox_Mode.Checked)
                     {
                         if (numericUpDown_GreedyIdComb.Value > 0)
-                            numericUpDown_GreedyIdComb.Value -= 1;
+                            numericUpDown_GreedyIdComb.Value -= 1;//kdyz zmacknes nahoru a box je cheknutej tak numeric greedy id klesa
                     }
                     else
                     {
                         if (listBox_ScriptFiles.SelectedIndex > 0)
-                            listBox_ScriptFiles.SelectedIndex = listBox_ScriptFiles.SelectedIndex - 1;
+                            listBox_ScriptFiles.SelectedIndex = listBox_ScriptFiles.SelectedIndex - 1;//kdyz zmacknes nauoru a box neni cheknutej tak listbox vybere soubor nad vybranym
                     }
-                    break;
+                    break;//kdyz selectnuty item je na 0 nebo value NUD je 0 neprovede se nic pri zmacknuti nahoru
 
                 case Keys.Down:
                     if (checkBox_Mode.Checked)
                     {
-                        numericUpDown_GreedyIdComb.Value += 1;
+                        numericUpDown_GreedyIdComb.Value += 1;//kdyz zmacknes dolu a box je cheknutej tak numeric greedy id roste
                     }
                     else
                     {
                         if (listBox_ScriptFiles.SelectedIndex < list_ScriptFiles.Count - 1)
-                            listBox_ScriptFiles.SelectedIndex = listBox_ScriptFiles.SelectedIndex + 1;
+                            listBox_ScriptFiles.SelectedIndex = listBox_ScriptFiles.SelectedIndex + 1;//kdyz zmacknes dolu a box neni cheknutej tak listbox vybere soubor pod nim
                     }
-                    break;
+                    break;//kdyz selectnuty item je na MAX a box neni checked tak se neprovede nic pri zmacknuti dolu
+
 
                 case Keys.F4:
                     if (show_roc_type == SHOW_ROC_TYPE.Type_I_Separete)

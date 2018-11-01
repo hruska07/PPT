@@ -84,3 +84,33 @@ D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOpera
 D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOperating.csproj.GenerateResource.Cache
 D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOperating.exe
 D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOperating.pdb
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\Resources\examples.xls
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\ReceiverOperating.exe.config
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\ReceiverOperating.exe
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\ReceiverOperating.pdb
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\Accord.Math.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\Accord.Statistics.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.Fuzzy.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.Genetic.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.Imaging.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.Imaging.Formats.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.MachineLearning.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.Math.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.Neuro.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.Robotics.Lego.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.Robotics.TeRK.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.Video.DirectShow.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.Video.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.Video.VFW.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\AForge.Vision.dll
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\bin\x86\Debug\ZedGraph.xml
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOperating.csprojAssemblyReference.cache
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOperating.MainForm.resources
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOperating.Properties.Resources.resources
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOperating.TableSelectDialog.resources
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOperating.csproj.GenerateResource.cache
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOperating.csproj.CoreCompileInputs.cache
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOperating.csproj.CopyComplete
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOperating.exe
+H:\vspj\5 semestr\PTT\PPT\sada_ukolu_2\App_Samples\Statistics\ReceiverOperating\obj\x86\Debug\ReceiverOperating.pdb
