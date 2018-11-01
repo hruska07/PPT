@@ -1,0 +1,39 @@
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\bin\Debug\Resources\examples.xls
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\bin\Debug\ReceiverOperating.exe
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\bin\Debug\ReceiverOperating.pdb
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\bin\Debug\Accord.Statistics.dll
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\bin\Debug\ZedGraph.dll
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\bin\Debug\ZedGraph.xml
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.csprojResolveAssemblyReference.cache
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.MainForm.resources
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.Properties.Resources.resources
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.TableSelectDialog.resources
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.csproj.GenerateResource.Cache
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.exe
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.pdb
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\Resources\examples.xls
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\ReceiverOperating.exe
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\ReceiverOperating.pdb
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\Accord.Statistics.dll
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\ZedGraph.dll
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\Accord.Statistics.pdb
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\ZedGraph.xml
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.MainForm.resources
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.Properties.Resources.resources
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.TableSelectDialog.resources
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.csproj.GenerateResource.Cache
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.exe
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.pdb
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.exe
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.pdb
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\Resources\examples.xls
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\ReceiverOperating.exe
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\ReceiverOperating.pdb
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\Accord.Statistics.dll
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\ZedGraph.dll
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\Accord.Statistics.pdb
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Debug\ZedGraph.xml
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.MainForm.resources
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.Properties.Resources.resources
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.TableSelectDialog.resources
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Debug\ReceiverOperating.csproj.GenerateResource.Cache

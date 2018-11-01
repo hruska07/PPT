@@ -1,0 +1,92 @@
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\bin\Release\Resources\examples.xls
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\bin\Release\ReceiverOperating.exe
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\bin\Release\ReceiverOperating.pdb
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\bin\Release\Accord.Statistics.dll
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\bin\Release\ZedGraph.dll
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\bin\Release\ZedGraph.xml
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.MainForm.resources
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.Properties.Resources.resources
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.TableSelectDialog.resources
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.csproj.GenerateResource.Cache
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.exe
+C:\Users\musil19\Documents\Visual Studio 2013\Projects\_Phd\Accord.NET\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.pdb
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Release\Resources\examples.xls
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Release\ReceiverOperating.exe
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Release\ReceiverOperating.pdb
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Release\Accord.Statistics.dll
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Release\ZedGraph.dll
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Release\ZedGraph.xml
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.csprojResolveAssemblyReference.cache
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.MainForm.resources
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.Properties.Resources.resources
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.TableSelectDialog.resources
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.csproj.GenerateResource.Cache
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.exe
+G:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.pdb
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.exe
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.pdb
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Release\Resources\examples.xls
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Release\ReceiverOperating.exe
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Release\ReceiverOperating.pdb
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Release\Accord.Statistics.dll
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Release\ZedGraph.dll
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\bin\Release\ZedGraph.xml
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.MainForm.resources
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.Properties.Resources.resources
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.TableSelectDialog.resources
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.csproj.GenerateResource.Cache
+F:\_Phd_Data\_Sw\PhD_Work\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.csprojResolveAssemblyReference.cache
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.MainForm.resources
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.Properties.Resources.resources
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.TableSelectDialog.resources
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.csproj.GenerateResource.Cache
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\ReceiverOperating.exe.config
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\Resources\examples.xls
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\ReceiverOperating.exe
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\ReceiverOperating.pdb
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\Accord.Statistics.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.csprojResolveAssemblyReference.cache
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.exe
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.pdb
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\Accord.Math.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.Fuzzy.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.Genetic.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.Imaging.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.Imaging.Formats.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.MachineLearning.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.Math.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.Neuro.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.Robotics.Lego.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.Robotics.TeRK.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.Video.DirectShow.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.Video.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.Video.VFW.dll
+F:\_Phd_Data\_sw_temp\Samples\Statistics\ReceiverOperating\bin\Release\AForge.Vision.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\ReceiverOperating.exe.config
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.exe
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.pdb
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\Resources\examples.xls
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\ReceiverOperating.exe
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\ReceiverOperating.pdb
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\Accord.Math.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\Accord.Statistics.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.Fuzzy.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.Genetic.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.Imaging.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.Imaging.Formats.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.MachineLearning.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.Math.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.Neuro.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.Robotics.Lego.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.Robotics.TeRK.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.Video.DirectShow.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.Video.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.Video.VFW.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\bin\Release\AForge.Vision.dll
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.csprojResolveAssemblyReference.cache
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.MainForm.resources
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.Properties.Resources.resources
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.TableSelectDialog.resources
+D:\_Test\sw\App_Samples\Statistics\ReceiverOperating\obj\Release\ReceiverOperating.csproj.GenerateResource.Cache
