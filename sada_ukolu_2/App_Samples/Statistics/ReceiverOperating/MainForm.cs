@@ -424,29 +424,29 @@ namespace ReceiverOperating
 
         private void MainForm_KeyDown(object sender, KeyEventArgs e)
         {
-            switch (e.KeyCode)
+            switch (e.KeyCode)//podle zmacknute klavesy se vybere ve switchi
             {
-                case Keys.Up:
-                    if (checkBox_Mode.Checked)
+                case Keys.Up://klavesa nahoru
+                    if (checkBox_Mode.Checked)//kontrola zda checkbox je zatrhnut
                     {
-                        if (numericUpDown_GreedyIdComb.Value > 0)
+                        if (numericUpDown_GreedyIdComb.Value > 0)//kontrola zda Greedy je vetší jak 0
                             numericUpDown_GreedyIdComb.Value -= 1;//kdyz zmacknes nahoru a box je cheknutej tak numeric greedy id klesa
                     }
-                    else
+                    else//kdyz neni
                     {
-                        if (listBox_ScriptFiles.SelectedIndex > 0)
+                        if (listBox_ScriptFiles.SelectedIndex > 0) // kontrola, zda je vybran v listu scripntu jina nez 1. polozka
                             listBox_ScriptFiles.SelectedIndex = listBox_ScriptFiles.SelectedIndex - 1;//kdyz zmacknes nauoru a box neni cheknutej tak listbox vybere soubor nad vybranym
                     }
                     break;//kdyz selectnuty item je na 0 nebo value NUD je 0 neprovede se nic pri zmacknuti nahoru
 
-                case Keys.Down:
-                    if (checkBox_Mode.Checked)
+                case Keys.Down://klavesa dolu
+                    if (checkBox_Mode.Checked)//kontrola zda checkbox je zatrhnut
                     {
                         numericUpDown_GreedyIdComb.Value += 1;//kdyz zmacknes dolu a box je cheknutej tak numeric greedy id roste
                     }
-                    else
+                    else//kdyz neni
                     {
-                        if (listBox_ScriptFiles.SelectedIndex < list_ScriptFiles.Count - 1)
+                        if (listBox_ScriptFiles.SelectedIndex < list_ScriptFiles.Count - 1)//kontrola, zda seznam neni na konci
                             listBox_ScriptFiles.SelectedIndex = listBox_ScriptFiles.SelectedIndex + 1;//kdyz zmacknes dolu a box neni cheknutej tak listbox vybere soubor pod nim
                     }
                     break;//kdyz selectnuty item je na MAX a box neni checked tak se neprovede nic pri zmacknuti dolu
