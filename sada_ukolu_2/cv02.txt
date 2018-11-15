@@ -1,0 +1,14 @@
+165 - listToExport
+
+zjistit vše o kolo toho
+
+jaká je struktùra
+Mapa - Dictionary
+klíè String
+Hodnota - Spojový seznam cest souborù
+
+jak se plní
+po stisknutí klávesy [space]
+èím se plní 
+
+jak vypadají data 
