@@ -30,12 +30,12 @@ namespace ReceiverOperating
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuFileOpen = new System.Windows.Forms.ToolStripMenuItem();
@@ -82,6 +82,8 @@ namespace ReceiverOperating
             this.colMatthews = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage_Script = new System.Windows.Forms.TabPage();
             this.groupBox_ScriptAndFilesSelection = new System.Windows.Forms.GroupBox();
+            this.numericUpDown_GreedyIdComb = new System.Windows.Forms.NumericUpDown();
+            this.checkBox_Mode = new System.Windows.Forms.CheckBox();
             this.numericUpDown_nStage_2 = new System.Windows.Forms.NumericUpDown();
             this.button_Select_ScriptFilesFolder_2 = new System.Windows.Forms.Button();
             this.textBox_ScriptFilesFolder_2 = new System.Windows.Forms.TextBox();
@@ -90,8 +92,6 @@ namespace ReceiverOperating
             this.textBox_ScriptFilesFolder = new System.Windows.Forms.TextBox();
             this.listBox_ScriptFiles = new System.Windows.Forms.ListBox();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.checkBox_Mode = new System.Windows.Forms.CheckBox();
-            this.numericUpDown_GreedyIdComb = new System.Windows.Forms.NumericUpDown();
             this.menuStrip1.SuspendLayout();
             this.tabControl.SuspendLayout();
             this.tabSamples.SuspendLayout();
@@ -109,9 +109,9 @@ namespace ReceiverOperating
             ((System.ComponentModel.ISupportInitialize)(this.dgvPointDetails)).BeginInit();
             this.tabPage_Script.SuspendLayout();
             this.groupBox_ScriptAndFilesSelection.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_GreedyIdComb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_nStage_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_nStage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_GreedyIdComb)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -194,14 +194,14 @@ namespace ReceiverOperating
             this.clearGraphToolStripMenuItem.Checked = true;
             this.clearGraphToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.clearGraphToolStripMenuItem.Name = "clearGraphToolStripMenuItem";
-            this.clearGraphToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.clearGraphToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.clearGraphToolStripMenuItem.Text = "Clear graph";
             this.clearGraphToolStripMenuItem.Click += new System.EventHandler(this.clearGraphToolStripMenuItem_Click);
             // 
             // useScoreToolStripMenuItem
             // 
             this.useScoreToolStripMenuItem.Name = "useScoreToolStripMenuItem";
-            this.useScoreToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.useScoreToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.useScoreToolStripMenuItem.Text = "Use score";
             this.useScoreToolStripMenuItem.Click += new System.EventHandler(this.useScoreToolStripMenuItem_Click);
             // 
@@ -416,7 +416,7 @@ namespace ReceiverOperating
             this.zedGraph1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.zedGraph1.Location = new System.Drawing.Point(6, 19);
+            this.zedGraph1.Location = new System.Drawing.Point(9, 19);
             this.zedGraph1.Name = "zedGraph1";
             this.zedGraph1.ScrollGrace = 0D;
             this.zedGraph1.ScrollMaxX = 0D;
@@ -471,14 +471,14 @@ namespace ReceiverOperating
             this.dgvPointDetails.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvPointDetails.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dgvPointDetails.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvPointDetails.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPointDetails.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvPointDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPointDetails.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colCutoff,
@@ -494,16 +494,16 @@ namespace ReceiverOperating
             this.colNegativePrecision,
             this.colFalseAlarmRate,
             this.colMatthews});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle12.Format = "N5";
-            dataGridViewCellStyle12.NullValue = null;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvPointDetails.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.Format = "N5";
+            dataGridViewCellStyle6.NullValue = null;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvPointDetails.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvPointDetails.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvPointDetails.Location = new System.Drawing.Point(3, 16);
             this.dgvPointDetails.Name = "dgvPointDetails";
@@ -525,8 +525,8 @@ namespace ReceiverOperating
             // 
             this.colTruePositive.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.colTruePositive.DataPropertyName = "TruePositives";
-            dataGridViewCellStyle8.Format = "N0";
-            this.colTruePositive.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Format = "N0";
+            this.colTruePositive.DefaultCellStyle = dataGridViewCellStyle2;
             this.colTruePositive.HeaderText = "True Positives";
             this.colTruePositive.Name = "colTruePositive";
             this.colTruePositive.ReadOnly = true;
@@ -536,8 +536,8 @@ namespace ReceiverOperating
             // 
             this.colTrueNegative.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.colTrueNegative.DataPropertyName = "TrueNegatives";
-            dataGridViewCellStyle9.Format = "N0";
-            this.colTrueNegative.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Format = "N0";
+            this.colTrueNegative.DefaultCellStyle = dataGridViewCellStyle3;
             this.colTrueNegative.HeaderText = "True Negatives";
             this.colTrueNegative.Name = "colTrueNegative";
             this.colTrueNegative.ReadOnly = true;
@@ -547,8 +547,8 @@ namespace ReceiverOperating
             // 
             this.colFalsePositive.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.colFalsePositive.DataPropertyName = "FalsePositives";
-            dataGridViewCellStyle10.Format = "N0";
-            this.colFalsePositive.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.Format = "N0";
+            this.colFalsePositive.DefaultCellStyle = dataGridViewCellStyle4;
             this.colFalsePositive.HeaderText = "False Positives";
             this.colFalsePositive.Name = "colFalsePositive";
             this.colFalsePositive.ReadOnly = true;
@@ -558,9 +558,9 @@ namespace ReceiverOperating
             // 
             this.colFalseNegative.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.colFalseNegative.DataPropertyName = "FalseNegatives";
-            dataGridViewCellStyle11.Format = "N0";
-            dataGridViewCellStyle11.NullValue = null;
-            this.colFalseNegative.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Format = "N0";
+            dataGridViewCellStyle5.NullValue = null;
+            this.colFalseNegative.DefaultCellStyle = dataGridViewCellStyle5;
             this.colFalseNegative.HeaderText = "False Negatives";
             this.colFalseNegative.Name = "colFalseNegative";
             this.colFalseNegative.ReadOnly = true;
@@ -669,6 +669,24 @@ namespace ReceiverOperating
             this.groupBox_ScriptAndFilesSelection.TabStop = false;
             this.groupBox_ScriptAndFilesSelection.Text = "Script and Files Selection";
             // 
+            // numericUpDown_GreedyIdComb
+            // 
+            this.numericUpDown_GreedyIdComb.Location = new System.Drawing.Point(125, 362);
+            this.numericUpDown_GreedyIdComb.Name = "numericUpDown_GreedyIdComb";
+            this.numericUpDown_GreedyIdComb.Size = new System.Drawing.Size(76, 20);
+            this.numericUpDown_GreedyIdComb.TabIndex = 8;
+            this.numericUpDown_GreedyIdComb.ValueChanged += new System.EventHandler(this.numericUpDown_GreedyIdComb_ValueChanged);
+            // 
+            // checkBox_Mode
+            // 
+            this.checkBox_Mode.AutoSize = true;
+            this.checkBox_Mode.Location = new System.Drawing.Point(7, 362);
+            this.checkBox_Mode.Name = "checkBox_Mode";
+            this.checkBox_Mode.Size = new System.Drawing.Size(102, 17);
+            this.checkBox_Mode.TabIndex = 7;
+            this.checkBox_Mode.Text = "Greedy-aproach";
+            this.checkBox_Mode.UseVisualStyleBackColor = true;
+            // 
             // numericUpDown_nStage_2
             // 
             this.numericUpDown_nStage_2.Location = new System.Drawing.Point(71, 72);
@@ -745,24 +763,6 @@ namespace ReceiverOperating
             this.openFileDialog.FilterIndex = 2;
             this.openFileDialog.Title = "Open file";
             // 
-            // checkBox_Mode
-            // 
-            this.checkBox_Mode.AutoSize = true;
-            this.checkBox_Mode.Location = new System.Drawing.Point(7, 362);
-            this.checkBox_Mode.Name = "checkBox_Mode";
-            this.checkBox_Mode.Size = new System.Drawing.Size(102, 17);
-            this.checkBox_Mode.TabIndex = 7;
-            this.checkBox_Mode.Text = "Greedy-aproach";
-            this.checkBox_Mode.UseVisualStyleBackColor = true;
-            // 
-            // numericUpDown_GreedyIdComb
-            // 
-            this.numericUpDown_GreedyIdComb.Location = new System.Drawing.Point(125, 362);
-            this.numericUpDown_GreedyIdComb.Name = "numericUpDown_GreedyIdComb";
-            this.numericUpDown_GreedyIdComb.Size = new System.Drawing.Size(76, 20);
-            this.numericUpDown_GreedyIdComb.TabIndex = 8;
-            this.numericUpDown_GreedyIdComb.ValueChanged += new System.EventHandler(this.numericUpDown_GreedyIdComb_ValueChanged);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -798,9 +798,9 @@ namespace ReceiverOperating
             this.tabPage_Script.ResumeLayout(false);
             this.groupBox_ScriptAndFilesSelection.ResumeLayout(false);
             this.groupBox_ScriptAndFilesSelection.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_GreedyIdComb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_nStage_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_nStage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_GreedyIdComb)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
