@@ -1,14 +1,22 @@
-165 - listToExport
+Øádek kódu: 165
 
-zjistit vše o kolo toho
+Støed zájmu: listToExport
 
-jaká je struktùra
-Mapa - Dictionary
-klíè String
-Hodnota - Spojový seznam cest souborù
+zjistit vše okolo toho
 
-jak se plní
-po stisknutí klávesy [space]
-èím se plní 
+- jaká je struktura
+	- Mapa - Dictionary
+	- klíè String
+	- Hodnota - Spojový seznam cest souborù
 
-jak vypadají data 
+- jak se plní
+	- po stisknutí klávesy [space]
+
+- èím se plní 
+	- 
+
+- jak vypadají data 
+	- 
+
+- k èemu se data využívají
+	- 
