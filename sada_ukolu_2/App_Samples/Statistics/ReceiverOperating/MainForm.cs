@@ -391,10 +391,12 @@ namespace ReceiverOperating
         }
 
         private void listBox_ScriptFiles_SelectedIndexChanged(object sender, EventArgs e)
-        {            
-            FileInfo it = (FileInfo)listBox_ScriptFiles.SelectedItem;
-            if (it != null)
+        {   
+            FileInfo it = (FileInfo)listBox_ScriptFiles.SelectedItem;   //trida FileInfo nacte soubor a pripravi FileStream
+            if (it != null) //pokud byl nejaky soubor vybran
             {
+                //je z nej vytvoren DataSet obsahujici informace o souboru: nazev slozky, kompletni cesta k souboru bez pripony, rucne pripona 'csv' a nakonec hodnota vybrane polozky v komponente numericUpDown_nStage_2
+                //z dat DataSetu jsou pozdeji spocitany hodnoty, ulozeny do souboru 'roc_graph_data.csv', ze ktereho je pozdeji vykreslen graf
                 Load_ROC_Data_Set(textBox_ScriptFilesFolder.Text, String.Format("{0}_{1}", it.Directory.Name, Path.GetFileNameWithoutExtension(it.FullName)), "csv", (int)numericUpDown_nStage.Value);
                 //Load_ROC_Data_Set(textBox_ScriptFilesFolder_2.Text, String.Format("{0}_{1}", it.Directory.Name, Path.GetFileNameWithoutExtension(it.FullName)), "csv", (int)numericUpDown_nStage_2.Value, true);
             }
