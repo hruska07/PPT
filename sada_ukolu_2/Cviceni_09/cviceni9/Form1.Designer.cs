@@ -36,9 +36,9 @@
             this.bt_START.ForeColor = System.Drawing.Color.Red;
             this.bt_START.Location = new System.Drawing.Point(12, 12);
             this.bt_START.Name = "bt_START";
-            this.bt_START.Size = new System.Drawing.Size(540, 214);
+            this.bt_START.Size = new System.Drawing.Size(57, 40);
             this.bt_START.TabIndex = 0;
-            this.bt_START.Text = "START";
+            this.bt_START.Text = "TEST";
             this.bt_START.UseVisualStyleBackColor = true;
             this.bt_START.Click += new System.EventHandler(this.bt_START_Click);
             // 
