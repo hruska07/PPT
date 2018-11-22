@@ -1,0 +1,2 @@
+Title;ROC-area;ROC-error;Title;ROC-area;ROC-error;nTrs;nVs;time_trs;time_vs;C;nSv;nSv+;nSv-
+185;0,728053091165933;0,00494183127585967;185;0,51695;0,013086300256184;10000;2000;2255,6311;489,7589;C:100;Kernel:1;nsv:7348;nsv+:1471;nsv-:5877
