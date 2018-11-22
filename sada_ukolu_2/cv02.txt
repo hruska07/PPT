@@ -1,22 +1,16 @@
-��dek k�du: 165
+Řádek kódu: 165
 
-St�ed z�jmu: listToExport
+Střed zájmu: listToExport
+zjistit vše okolo toho
+globální mapa vytvořená ve MainForm
 
-zjistit v�e okolo toho
-
-- jak� je struktura
+- jaká je struktura
 	- Mapa - Dictionary
-	- kl�� String
-	- Hodnota - Spojov� seznam cest soubor�
+	- klíč String
+	- Hodnota - Spojový seznam cest souborů
 
-- jak se pln�
-	- po stisknut� kl�vesy [space]
+- jak se plní-čím se plní-jak vypadají data 
+řádek 1338 - po stisknutí klávesy [space] - se zkontroluje zda je klíč v této mapě obzažen, který je vybrán checkbox listu(chclbSourceList) a pokud není tak se přidá: vytvoří se tento klíč do mapy a jako hodnota se zadá cesta souboru z listboxu()lbImgFiles)
 
-- ��m se pln� 
-	- 
-
-- jak vypadaj� data 
-	- 
-
-- k �emu se data vyu��vaj�
-	- 
+- k čemu se data využívají
+řádek 2130	- tento dictionary se převede do stringu a poté se uloží  do souboru script_export.xml
