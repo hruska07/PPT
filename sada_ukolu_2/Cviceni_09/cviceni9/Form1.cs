@@ -14,6 +14,11 @@ namespace cviceni9
         }
 
         ArrayList datazcsv = new ArrayList();
+        string pathVzor = Application.StartupPath + @"\..\..\..\zadani\vzor_vysledku\";
+        string pathData = Application.StartupPath + @"\..\..\..\data\_results_data\svm_00\";
+        string OrigFileName = "_overview__svm_00_orig.csv";
+        string OrigSortedFileName = "_overview__svm_00_sortByAUCvs.csv";
+
         static bool FileEquals(string path1, string path2)
         {
             byte[] file1 = File.ReadAllBytes(path1);
@@ -30,13 +35,12 @@ namespace cviceni9
 
         void Napln(string path1, int length = 1764)
         {
-
             for (int i = 0; i < length; i++)
             {
                 try
                 {
                     var line ="";
-                    var reader = new StreamReader(path1 + @"\" + i + @"\_data\roc.csv");
+                    var reader = new StreamReader(path1 + i + @"\_data\roc.csv");
                     line = reader.ReadLine();
                     if (i == 0)
                         datazcsv.Add(line);
@@ -52,25 +56,29 @@ namespace cviceni9
                 }
 
             }
-            StreamWriter writer = new StreamWriter(path1 + @"\_overview__svm_00_orig.csv");
+            StreamWriter writer = new StreamWriter(path1 + OrigFileName);
 
             for (int i = 0; i < datazcsv.Count; i++)
                 writer.WriteLine(datazcsv[i]);
             writer.Close();
         }
+
         void seradNamTo(string path1)
         {
             Dictionary<double, string> dictionary = new Dictionary<double, string>();
            
             for (int i = 0; i < datazcsv.Count; i++)
             {
-                ArrayList pole = new ArrayList();
-                pole.Add(datazcsv[i].ToString().Split(';'));
-                dictionary.Add(Convert.ToDouble(pole[5]), pole.ToString());
+                string[] pole = datazcsv[i].ToString().Split(';');
+                double cislo = 0.00;
+                if (double.TryParse(pole[5], out cislo))
+                {
+                    dictionary.Add(cislo, datazcsv[i].ToString());
+                }
             }
             SortedDictionary<double, string> dictionarySorted = new SortedDictionary<double, string>(dictionary);
 
-            StreamWriter writer = new StreamWriter(path1 + @"\_overview__svm_00_sortByAUCvs");
+            StreamWriter writer = new StreamWriter(path1 + OrigSortedFileName);
 
             foreach (string it in dictionarySorted.Values)
                 writer.WriteLine(it);
@@ -80,15 +88,21 @@ namespace cviceni9
         }
         private void bt_START_Click(object sender, System.EventArgs e)
         {
+            string path1 = pathVzor + OrigFileName;
+            string path2 = pathData + OrigFileName;
+            Porovnej(path1, path2);
+        }
+
+        private static void Porovnej(string path1, string path2)
+        {
             try
             {
-                if (FileEquals(@"C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\zadani\vzor_vysledku\_overview__svm_00_orig.csv",
-                    @"C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\data\_results_data\svm_00\_overview__svm_00_orig.csv"))
+                if (FileEquals(path1, path2))
                     MessageBox.Show("Soubory jsou stejne", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 else
                     MessageBox.Show("Soubory nejsou stejne", "Chyba", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Soubory nejsou stejne nebo není vygenerován", "Chyba", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -97,15 +111,22 @@ namespace cviceni9
         private void button1_Click(object sender, System.EventArgs e)
         {
 
-            var path1 = @"C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\data\_results_data\svm_00";
+            string path1 = pathData;
             Napln(path1);
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var path1 = @"C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\data\_results_data\svm_00";
+            string path1 = pathData;
             seradNamTo(path1);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string path1 = pathVzor + OrigSortedFileName;
+            string path2 = pathData + OrigSortedFileName;
+            Porovnej(path1, path2);
         }
     }
 }
