@@ -1,0 +1,10 @@
+C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\cviceni9\bin\Debug\cviceni9.exe.config
+C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\cviceni9\bin\Debug\cviceni9.exe
+C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\cviceni9\bin\Debug\cviceni9.pdb
+C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.csprojAssemblyReference.cache
+C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.Form1.resources
+C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.Properties.Resources.resources
+C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.csproj.GenerateResource.cache
+C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.csproj.CoreCompileInputs.cache
+C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.exe
+C:\Users\stepan25\HruskaPPT\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.pdb

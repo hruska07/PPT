@@ -1,7 +1,7 @@
 Vytvoøení souhrnného logu csv
 
 Vytvoøte aplikaci s grafickým uživatelským rozhraním (winform aplikace v C#/.NET nebo v Java) podle následujícího zadání. 
-i) Aplikace umožní pro vybranou datovou složku na disku vytvoøit souhrnný log z dílèích logù každé podsloky (soubor roc.csv). Pøehledový log se zapíše do souboru '_overview__svm_00_orig.csv'.
+i) Aplikace umožní pro vybranou datovou složku na disku vytvoøit souhrnný log z dílèích logù každé podslozky (soubor roc.csv). Pøehledový log se zapíše do souboru '_overview__svm_00_orig.csv'.
 ii) Aplikace dále umožní seøadit øádky podle hodnoty v 5. sloupci (poèítáno od hodnoty 1). Seøazená data se zapíší do souboru '_overview__svm_00_sortByAUCvs.csv'.
 Vstupní hodnotou procesu zpracování je cesta datové složky (../svm_00) a poèet pøípadù (1764). Vytváøené soubory budou umístìny ve specifikované datové složce. 
 
