@@ -1,0 +1,41 @@
+https://jamesmccaffrey.wordpress.com/2010/03/20/sorting-a-text-file-or-arraylist-based-on-multiple-columns/
+
+public class Person
+{
+  public string lastName; //tady bude 0 spoupec
+  public string firstName;//tady bude 6 sloupec
+  public int age; //tady bude celej zaznam
+  public Person(string ln, string fn, int a)
+  {
+    lastName = ln; firstName = fn; age = a;
+  }
+  public override string ToString()
+  {
+    return lastName + “ “ firstName + “ “ + age;
+  }
+  public class myComparer : IComparer // by last name then first
+  {
+    int IComparer.Compare(object x, object y)
+    {
+      Person p1 = (Person)x;
+      Person p2 = (Person)y;
+      string lastname1 = p1.lastName;
+      string lastname2 = p2.lastName;
+      int lastNameCompare = lastname1.CompareTo(lastname2);
+      if (lastNameCompare != 0) // if last names not equal
+      {
+        return lastNameCompare; // we’re done
+      }
+      else // compare by first name
+      {
+        string firstname1 = p1.firstName;
+        string firstname2 = p2.firstName;
+        return firstname1.CompareTo(firstname2);
+      }
+    }
+  } // class myComparer
+} // class Person
+ 
+Now if you have an ArrayList loaded with Person objects (presumably loaded from a file), you can sort them with:
+ 
+theArrayList.Sort(new Person.myComparer());
