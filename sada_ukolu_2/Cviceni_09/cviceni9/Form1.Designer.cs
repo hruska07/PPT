@@ -38,7 +38,7 @@
             // bt_START
             // 
             this.bt_START.ForeColor = System.Drawing.Color.Red;
-            this.bt_START.Location = new System.Drawing.Point(12, 12);
+            this.bt_START.Location = new System.Drawing.Point(130, 12);
             this.bt_START.Name = "bt_START";
             this.bt_START.Size = new System.Drawing.Size(57, 40);
             this.bt_START.TabIndex = 0;
@@ -49,18 +49,18 @@
             // button1
             // 
             this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(75, 12);
+            this.button1.Location = new System.Drawing.Point(16, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(57, 40);
+            this.button1.Size = new System.Drawing.Size(108, 40);
             this.button1.TabIndex = 1;
-            this.button1.Text = "TEST";
+            this.button1.Text = "Vygenerovat originální";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lb_proces
             // 
             this.lb_proces.AutoSize = true;
-            this.lb_proces.Location = new System.Drawing.Point(13, 59);
+            this.lb_proces.Location = new System.Drawing.Point(193, 26);
             this.lb_proces.Name = "lb_proces";
             this.lb_proces.Size = new System.Drawing.Size(35, 13);
             this.lb_proces.TabIndex = 2;
@@ -69,18 +69,18 @@
             // button2
             // 
             this.button2.ForeColor = System.Drawing.Color.Red;
-            this.button2.Location = new System.Drawing.Point(189, 12);
+            this.button2.Location = new System.Drawing.Point(16, 58);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(57, 40);
+            this.button2.Size = new System.Drawing.Size(108, 40);
             this.button2.TabIndex = 3;
-            this.button2.Text = "TEST";
+            this.button2.Text = "Vygenerovat seřazený";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.ForeColor = System.Drawing.Color.Red;
-            this.button3.Location = new System.Drawing.Point(252, 12);
+            this.button3.Location = new System.Drawing.Point(130, 58);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(57, 40);
             this.button3.TabIndex = 4;
@@ -100,7 +100,7 @@
             this.Controls.Add(this.bt_START);
             this.Location = new System.Drawing.Point(50, 50);
             this.Name = "Form1";
-            this.Text = "FormMain";
+            this.Text = "Hromadné zpracování dat";
             this.ResumeLayout(false);
             this.PerformLayout();
 

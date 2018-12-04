@@ -18,3 +18,13 @@ C:\dev\projekty\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.csproj.G
 C:\dev\projekty\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.csproj.CoreCompileInputs.cache
 C:\dev\projekty\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.exe
 C:\dev\projekty\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.pdb
+H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.csprojAssemblyReference.cache
+H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.Form1.resources
+H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.Properties.Resources.resources
+H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.csproj.GenerateResource.cache
+H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.csproj.CoreCompileInputs.cache
+H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.exe
+H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.pdb
+H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\bin\Debug\cviceni9.exe.config
+H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\bin\Debug\cviceni9.exe
+H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\bin\Debug\cviceni9.pdb

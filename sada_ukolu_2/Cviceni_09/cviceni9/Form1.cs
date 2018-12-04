@@ -13,6 +13,7 @@ namespace cviceni9
             InitializeComponent();
         }
 
+        ArrayList dataserazena = new ArrayList();
         ArrayList datazcsv = new ArrayList();
         string pathVzor = Application.StartupPath + @"\..\..\..\zadani\vzor_vysledku\";
         string pathData = Application.StartupPath + @"\..\..\..\data\_results_data\svm_00\";
@@ -65,23 +66,67 @@ namespace cviceni9
 
         void seradNamTo(string path1)
         {
-            Dictionary<double, string> dictionary = new Dictionary<double, string>();
-           
-            for (int i = 0; i < datazcsv.Count; i++)
+            /* Dictionary<double, string> dictionary = new Dictionary<double, string>();
+
+             for (int i = 0; i < datazcsv.Count; i++)
+             {
+                 string[] pole = datazcsv[i].ToString().Split(';');
+                 double cislo = 0.00;
+                 if (double.TryParse(pole[5], out cislo))
+                 {
+                     dictionary.Add(cislo, datazcsv[i].ToString());
+                 }
+             }
+             SortedDictionary<double, string> dictionarySorted = new SortedDictionary<double, string>(dictionary);
+
+             StreamWriter writer = new StreamWriter(path1 + OrigSortedFileName);
+
+             foreach (string it in dictionarySorted.Values)
+                 writer.WriteLine(it);
+             writer.Close();*/
+
+
+
+            for (int i = 1; i < datazcsv.Count; i++)
             {
-                string[] pole = datazcsv[i].ToString().Split(';');
-                double cislo = 0.00;
-                if (double.TryParse(pole[5], out cislo))
+                try
                 {
-                    dictionary.Add(cislo, datazcsv[i].ToString());
+                    string[] pole = datazcsv[i].ToString().Split(';');
+                    double cislo = 0.00;
+                    if (double.TryParse(pole[5], out cislo))
+                    {
+                        trideni neco = new trideni();
+                        neco.sl_0 = Convert.ToInt32(pole[1]);
+                        neco.sl_6 = Convert.ToDouble(pole[5]);
+                        neco.radek = datazcsv[i].ToString();
+                        dataserazena.Add(neco);
+                    }
+                    else
+                    {
+                        string neneneneneco = "svm_00;svm_" + (i - 1).ToString() + ";notT;notT;notT;notT;notT;notT;notT;notT;notT;notT;notT;notT;notT;notT";
+                        trideni neco = new trideni();
+                        neco.sl_0 = i - 1;
+                        neco.sl_6 = 100;
+                        neco.radek = neneneneneco;
+                        dataserazena.Add(neco);
+
+                        lb_proces.Text = i.ToString() + "xxxxx";
+                    }
                 }
+                catch (System.Exception)
+                {
+                    
+                }
+
             }
-            SortedDictionary<double, string> dictionarySorted = new SortedDictionary<double, string>(dictionary);
+
+            dataserazena.Sort(new trideni.myComparer());
 
             StreamWriter writer = new StreamWriter(path1 + OrigSortedFileName);
+            writer.WriteLine(datazcsv[0].ToString());
+            for (int i = 0; i < dataserazena.Count; i++)
+                writer.WriteLine(((trideni)(dataserazena[i])).radek);
 
-            foreach (string it in dictionarySorted.Values)
-                writer.WriteLine(it);
             writer.Close();
 
 
@@ -128,5 +173,84 @@ namespace cviceni9
             string path2 = pathData + OrigSortedFileName;
             Porovnej(path1, path2);
         }
-    }
+
+
+        void Naplnserazeno(string path1, int length = 1764)
+        {
+            for (int i = 0; i < length; i++)
+            {
+                try
+                {
+                    var line = "";
+                    var reader = new StreamReader(path1 + i + @"\_data\roc.csv");
+                    line = reader.ReadLine();
+                    if (i == 0)
+                        dataserazena.Add(line);
+                    line = "svm_00;" + reader.ReadLine();
+                    dataserazena.Add(line);
+                    lb_proces.Text = i.ToString();
+                }
+                catch (System.Exception)
+                {
+                    string neneneneneco = "svm_00;svm_" + i.ToString() + ";notT;notT;notT;notT;notT;notT;notT;notT;notT;notT;notT;notT;notT;notT";
+                    dataserazena.Add(neneneneneco);
+                    lb_proces.Text = i.ToString() + "xxxxx";
+                }
+
+                     
+
+            }
+            StreamWriter writer = new StreamWriter(path1 + OrigFileName);
+
+            for (int i = 0; i < dataserazena.Count; i++)
+                writer.WriteLine(dataserazena[i]);
+            writer.Close();
+        }
+        }
+
+        public class trideni
+        {
+            public int sl_0; //tady bude 0 spoupec
+            public double sl_6;//tady bude 6 sloupec
+            public string radek; //tady bude celej zaznam
+            public trideni()
+            {
+            }
+
+            public class myComparer : IComparer // by last name then first
+            {
+                int IComparer.Compare(object x, object y)
+                {
+                    trideni p1 = (trideni)x;
+                    trideni p2 = (trideni)y;
+                    double sl_61 = p1.sl_6;
+                    double sl_62 = p2.sl_6;
+                
+                    int sl_0Compare = sl_61.CompareTo(sl_62);
+                    if (sl_0Compare != 0) // if last names not equal
+                    {
+                        return sl_0Compare * (-1); // we’re done
+                    }
+                    else // compare by first name
+                    {
+                        int sl_01 = p1.sl_0;
+                        int sl_02 = p2.sl_0;
+                        return sl_01.CompareTo(sl_02);
+                    }
+                }
+        } // class myComparer
+    
+        } // class trideni
+
+        
+       
+      
+
+
+
+
+       
+
+ 
+
 }
