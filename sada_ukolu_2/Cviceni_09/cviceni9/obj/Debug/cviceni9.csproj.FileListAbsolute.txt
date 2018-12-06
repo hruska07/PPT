@@ -28,3 +28,13 @@ H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.pdb
 H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\bin\Debug\cviceni9.exe.config
 H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\bin\Debug\cviceni9.exe
 H:\PPT\sada_ukolu_2\Cviceni_09\cviceni9\bin\Debug\cviceni9.pdb
+H:\vspj\5 semestr\PPT\sada_ukolu_2\Cviceni_09\cviceni9\bin\Debug\cviceni9.exe.config
+H:\vspj\5 semestr\PPT\sada_ukolu_2\Cviceni_09\cviceni9\bin\Debug\cviceni9.exe
+H:\vspj\5 semestr\PPT\sada_ukolu_2\Cviceni_09\cviceni9\bin\Debug\cviceni9.pdb
+H:\vspj\5 semestr\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.csprojAssemblyReference.cache
+H:\vspj\5 semestr\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.FormMain.resources
+H:\vspj\5 semestr\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.Properties.Resources.resources
+H:\vspj\5 semestr\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.csproj.GenerateResource.cache
+H:\vspj\5 semestr\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.csproj.CoreCompileInputs.cache
+H:\vspj\5 semestr\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.exe
+H:\vspj\5 semestr\PPT\sada_ukolu_2\Cviceni_09\cviceni9\obj\Debug\cviceni9.pdb

@@ -1,6 +1,6 @@
 ﻿namespace cviceni9
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Vyžaduje se proměnná návrháře.
@@ -38,7 +38,7 @@
             // bt_START
             // 
             this.bt_START.ForeColor = System.Drawing.Color.Red;
-            this.bt_START.Location = new System.Drawing.Point(130, 12);
+            this.bt_START.Location = new System.Drawing.Point(142, 12);
             this.bt_START.Name = "bt_START";
             this.bt_START.Size = new System.Drawing.Size(57, 40);
             this.bt_START.TabIndex = 0;
@@ -49,7 +49,7 @@
             // button1
             // 
             this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(16, 12);
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(108, 40);
             this.button1.TabIndex = 1;
@@ -60,16 +60,15 @@
             // lb_proces
             // 
             this.lb_proces.AutoSize = true;
-            this.lb_proces.Location = new System.Drawing.Point(193, 26);
+            this.lb_proces.Location = new System.Drawing.Point(241, 48);
             this.lb_proces.Name = "lb_proces";
-            this.lb_proces.Size = new System.Drawing.Size(35, 13);
+            this.lb_proces.Size = new System.Drawing.Size(0, 13);
             this.lb_proces.TabIndex = 2;
-            this.lb_proces.Text = "label1";
             // 
             // button2
             // 
             this.button2.ForeColor = System.Drawing.Color.Red;
-            this.button2.Location = new System.Drawing.Point(16, 58);
+            this.button2.Location = new System.Drawing.Point(12, 58);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(108, 40);
             this.button2.TabIndex = 3;
@@ -80,7 +79,7 @@
             // button3
             // 
             this.button3.ForeColor = System.Drawing.Color.Red;
-            this.button3.Location = new System.Drawing.Point(130, 58);
+            this.button3.Location = new System.Drawing.Point(142, 58);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(57, 40);
             this.button3.TabIndex = 4;
@@ -88,18 +87,18 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Form1
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(360, 133);
+            this.ClientSize = new System.Drawing.Size(322, 111);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.lb_proces);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.bt_START);
             this.Location = new System.Drawing.Point(50, 50);
-            this.Name = "Form1";
+            this.Name = "FormMain";
             this.Text = "Hromadné zpracování dat";
             this.ResumeLayout(false);
             this.PerformLayout();
