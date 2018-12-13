@@ -9,8 +9,15 @@ namespace CalcFibonacci
     class Fibonacci
     {
         public int CalcRek(int n)
-        {
-            throw new NotImplementedException();
+        { /*
+            if (n == 0)
+                return 0;
+            if (n == 1)
+                return 1;
+            else
+                return CalcRek(n - 1) + CalcRek(n - 2);
+            */
+            return n == 0 ? 0 : n == 1 ? 1 : CalcRek(n - 1) + CalcRek(n - 2);
         }
 
         public int CalcRekTable(int n)
