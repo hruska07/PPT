@@ -1,0 +1,16 @@
+implementace fibbonanchiho 
+rozdel a panuj
+dyn programovani
+
+3 metody
+
+zamysleni co potrebujem za struktury
+na papir nacrt
+
+co je potreba 
+jaka datova struktura
+navrh vice struktur pouziti
+vyuziti vice implementaci
+
+vypocet slozitosti algoritmu 
+programove pocitat slozitost counter promìnnych zvyšování o 1, jenž vypoète poètu pøiøazení
