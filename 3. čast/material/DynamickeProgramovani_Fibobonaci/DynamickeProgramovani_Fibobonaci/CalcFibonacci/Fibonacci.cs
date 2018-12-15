@@ -7,15 +7,13 @@ namespace CalcFibonacci
     {
         public ArrayList DataFibona { get; private set; }
         public int CalcRek(int n)
-        { /*
-            if (n == 0)
-                return 0;
-            if (n == 1)
+        {
+            /*if ( n==1||n == 2)
                 return 1;
             else
-                return CalcRek(n - 1) + CalcRek(n - 2);
-            */
-            return n == 0 ? 0 : n == 1 ? 1 : CalcRek(n - 1) + CalcRek(n - 2);
+                return CalcRek(n - 2) + CalcRek(n - 1);*/
+            return n == 1 || n == 2 ? 1 : CalcRek(n - 2) + CalcRek(n - 1);
+            // return n == 0 ? 0 : n == 1 ? 1 : CalcRek(n - 1) + CalcRek(n - 2);
         }
         public Fibonacci()
         {
@@ -29,16 +27,16 @@ namespace CalcFibonacci
 
         public int CalcNerek(int n)
         {
-            int a =0;
+            int a =1;
             int b = 1;
             int c = 0;
-            for (int i = 2; i <= n; i++)
+            for (int i = 3; i <= n; i++)
             {
-                c += a + b;
-                a = n - 2;
-                b = n - 1;
+                c = a;
+                a = b+a;
+                b = c;
             }
-            return c;
+            return a;
         }
     }
 }

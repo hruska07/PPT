@@ -17,10 +17,13 @@ namespace CalcFibonacci
             Console.Write("Zadejte pocet prvku: ");
             n= Convert.ToInt32( Console.ReadLine());
 
-            Console.Write(fib.CalcRek(Convert.ToInt32(n)).ToString());
-            Console.Write(fib.CalcNerek(Convert.ToInt32(n)).ToString());
-            Console.Write("Zadejte pocet prvku: ");
-            n = Convert.ToInt32(Console.ReadLine());
+            Console.Write(fib.CalcRek(Convert.ToInt32(n)).ToString()+"\n");
+            Console.Write(fib.CalcNerek(Convert.ToInt32(n)).ToString() + "\n");
+            Console.Write("PRO UKONCENI STISKNETE ENTER");
+            try {
+                n = Convert.ToInt32(Console.ReadLine());
+            }
+            catch { }
         }
     }
 }
